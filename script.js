@@ -13,6 +13,7 @@ const text = document.querySelector("#text");
 const xpText = document.querySelector("#xpText");
 const healthText = document.querySelector("#healthText");
 const goldText = document.querySelector("#goldText");
+const weaponText = document.querySelector("#weaponText");
 const monsterStats = document.querySelector("#monsterStats");
 const monsterName = document.querySelector("#monsterName");
 const monsterHealthText = document.querySelector("#monsterHealth");
@@ -136,6 +137,7 @@ function buyWeapon() {
             currentWeapon++;
             goldText.innerText = gold;
             let newWeapon = weapons[currentWeapon].name;
+            weaponText.innerText = newWeapon;
             text.innerText = "You now have a " + newWeapon + ".";
             inventory.push(newWeapon);
             text.innerText += " In your inventory you have: " + inventory;
@@ -203,6 +205,7 @@ function attack() {
     if (Math.random() <= .1 && inventory.length !== 1) {
         text.innerText += " Your " + inventory.pop() + " breaks.";
         currentWeapon--;
+        weaponText.innerText = weapons[currentWeapon].name;
     }
 }
 
@@ -245,6 +248,7 @@ function restart() {
     goldText.innerText = gold;
     healthText.innerText = health;
     xpText.innerText = xp;
+    weaponText.innerText = inventory[0];
     goTown();
 }
 
