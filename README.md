@@ -1,4 +1,4 @@
-# Dragon Slayer
+# The Dragon Repeller Game
 
 ## Overview
 
