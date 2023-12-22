@@ -45,7 +45,6 @@ This project is a part of the JavaScript Algorithms and Data Structures (Beta) c
 - JavaScript ES6
 
 ## Screenshots
-<img width="862" alt="image" src="https://github.com/anilk-anusha/dragonSlayer/assets/130001836/ddff942d-56a0-462c-bf68-afdb25f2c72c">
 <img width="930" alt="image" src="https://github.com/anilk-anusha/dragonSlayer/assets/130001836/ce51b219-0304-45d7-a1c5-6afc0dfff911">
 <img width="926" alt="image" src="https://github.com/anilk-anusha/dragonRepeller/assets/130001836/0c990fce-3e64-4674-bce9-a0419913df99">
 
