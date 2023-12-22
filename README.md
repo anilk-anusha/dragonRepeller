@@ -8,6 +8,7 @@ This project is a part of the JavaScript Algorithms and Data Structures (Beta) c
 
 - [General Info](#general-info)
 - [Topics Covered](#topics-covered)
+- [Enhancements](#enhancements)
 - [Technologies](#technologies)
 - [Setup](#setup)
 - [Screenshots](#screenshots)
@@ -18,19 +19,25 @@ This project is a part of the JavaScript Algorithms and Data Structures (Beta) c
 
  The main purpose of this project is to understand the basics of JavaScript.
 
-## Topics Covered in this project:
+## Topics covered
 
-- [ ] Use of let keywords
-- [ ] Different datatypes
-- [ ] Using arrays for defining variables
-- [ ] DOM - dom methods like - querySelector(), dot notation
-- [ ] Functions
-- [ ] innerText property controls the text that appears in an HTML element object
-- [ ] Compound assignment
-- [ ] Shift method
-- [ ] Ternary operator
-- [ ] Increment and decrement operator
+- [x] Use of let keywords
+- [x] Different datatypes
+- [x] Using arrays for defining variables
+- [x] DOM - dom methods like - querySelector(), dot notation
+- [x] Functions
+- [x] innerText property controls the text that appears in an HTML element object
+- [x] Compound assignment
+- [x] Shift method
+- [x] Ternary operator
+- [x] Increment and decrement operator
 
+## Enhancements
+
+- Implemented a dynamic feature displaying the user's current weapon. This functionality updates in real time, reflecting the user's progress within the game.
+  
+<img width="333" alt="image" src="https://github.com/anilk-anusha/dragonRepeller/assets/130001836/e76be595-6b38-46d3-a785-04d8aa277419">
+ 
 ## Technologies
 
 - HTML5
@@ -40,6 +47,8 @@ This project is a part of the JavaScript Algorithms and Data Structures (Beta) c
 ## Screenshots
 <img width="862" alt="image" src="https://github.com/anilk-anusha/dragonSlayer/assets/130001836/ddff942d-56a0-462c-bf68-afdb25f2c72c">
 <img width="930" alt="image" src="https://github.com/anilk-anusha/dragonSlayer/assets/130001836/ce51b219-0304-45d7-a1c5-6afc0dfff911">
+<img width="926" alt="image" src="https://github.com/anilk-anusha/dragonRepeller/assets/130001836/0c990fce-3e64-4674-bce9-a0419913df99">
+
 
 
 ## Setup
@@ -53,4 +62,4 @@ Project Status: Completed
 ## References
 
 - https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/
-- [Codepen]([https://www.example.com](https://codepen.io/anilk-anusha/full/JjzjRJO)https://codepen.io/anilk-anusha/full/JjzjRJO)  
+- [Codepen](https://codepen.io/anilk-anusha/full/JjzjRJO)
