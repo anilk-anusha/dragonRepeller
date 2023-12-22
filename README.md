@@ -52,5 +52,5 @@ Project Status: Completed
 
 ## References
 
-https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/
-Codepen link: https://codepen.io/anilk-anusha/full/JjzjRJO
+- https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/
+- [Codepen]([https://www.example.com](https://codepen.io/anilk-anusha/full/JjzjRJO)https://codepen.io/anilk-anusha/full/JjzjRJO)  
