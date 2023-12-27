@@ -1,3 +1,8 @@
+/*
+To start off, we are declaring all the required variables 
+Setting the default weapon as stick 
+*/
+
 let xp = 0;
 let health = 100;
 let gold = 50;
@@ -5,6 +10,10 @@ let currentWeapon = 0;
 let fighting;
 let monsterHealth;
 let inventory = ["stick"];
+
+/*
+Setting the variables to the corresponding ids
+*/
 
 const button1 = document.querySelector('#button1');
 const button2 = document.querySelector("#button2");
@@ -23,6 +32,11 @@ const weapons = [
     { name: 'claw hammer', power: 50 },
     { name: 'sword', power: 100 }
 ];
+
+/*monsters variable has 3 different kinds of monsters which has different levels and health points, 
+the health variable denotes the amount of health required by the user to fight the monster */
+
+
 const monsters = [
     {
         name: "slime",
@@ -40,6 +54,9 @@ const monsters = [
         health: 300
     }
 ]
+/*
+Based on the user's location in the game, the button's name, functions and the text are changed
+*/
 const locations = [
     {
         name: "town square",
